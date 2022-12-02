@@ -31,7 +31,19 @@ On selectionne un dossier, ça lit les metadatas, on génère un xml en output.
 Pas besoin d'avoir Rekordbox.
 Les sons ne seront bien pas pas analysés. (en tout cas dans le MVP, mais je pense que ce n'est pas le but de l'outil, on ne pourra pas "rivaliser" avec Rekordbox là dessus)
 
+### Install
+
+- Cloner le projet
+- Suivre le Hello World Emscripten
+- Installer `serve`
+- Lancer
+```
+  serve
+```
+
 ### Liens
+
+Hello World Emscripten : https://code-boxx.com/get-started-webassembly-beginners/
 
 Préfix des commits :
 - `semantic` https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
