@@ -41,6 +41,13 @@ Les sons ne seront bien pas pas analysés. (en tout cas dans le MVP, mais je pen
   serve
 ```
 
+### Remarques
+Quand je lance `emsdk_env.bat` puis `emcmdprompt.bat`
+sur Powershell / le nouveau Terminal Windows, j'ai plus accès à certaines commandes genre `ls`, et faire un `npm install --global serve` n'a pas installé serve en global une fois sortie de mon onglet Terminal (kill prompt). Autant donc ouvrir 3 onglets :
+- Un pour `emsdk_env.bat` et `emcmdprompt.bat`, puis pouvoir ensuite lancer `emcc` quand nécessaire
+- Un pour `serve` et monitorer
+- Un pour git & co
+
 ### Liens
 
 Hello World Emscripten : https://code-boxx.com/get-started-webassembly-beginners/
